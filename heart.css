@@ -1,0 +1,109 @@
+.body{
+    background-color: antiquewhite;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+#textu{
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    align-self: center;
+    justify-self: center;
+    top: 0px;
+    font-family: "Mv boli";
+    background-color: darksalmon;
+}
+#text{
+    text-align: center;
+    font-size: 50px;
+    position: fixed;
+    align-self: center;
+    justify-self: center;
+    top: 80%;
+    transition-duration: 2s;
+    animation-duration: 2s;
+    font-family: "Miriam Fixed";
+    background-color: darksalmon;
+}
+.heart1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    rotate: 45deg;
+    color: red;
+    transition-duration: 1s;
+    animation-name: heartb;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+.heart2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    rotate: 45deg;
+    border-radius: 100%;
+    margin: 0% -50%;
+    transition-duration: 1s;
+    animation-name: heartri;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+.heart3{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    rotate: 45deg;
+    border-radius: 100%;
+    margin: -150% 0%;
+    transition-duration: 1s;
+    animation-name: heartle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+@keyframes heartb{
+    from{
+        height: 200px;
+        width: 200px;
+    }
+    to{
+        height: 100px;
+        width: 100px;
+    }
+}
+@keyframes heartri {
+    from{
+        height: 200px;
+        width: 200px;
+    }
+    to{
+        height: 100px;
+        width: 100px;
+    }
+}
+@keyframes heartle {
+    from{
+        height: 200px;
+        width: 200px;
+    }
+    to{
+        height: 100px;
+        width: 100px;
+    }
+}
+#col{
+    background-color: red;
+}
+#col1{
+    background-color: red;
+}
+#col2{
+    background-color: red;
+}
