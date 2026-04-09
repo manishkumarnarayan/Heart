@@ -1,11 +1,12 @@
-.body{
+.body {
     background-color: antiquewhite;
     display: grid;
     align-content: center;
     justify-content: center;
     text-align: center;
 }
-#textu{
+
+#textu {
     text-align: center;
     font-size: 30px;
     position: fixed;
@@ -15,7 +16,8 @@
     font-family: "Mv boli";
     background-color: darksalmon;
 }
-#text{
+
+#text {
     text-align: center;
     font-size: 50px;
     position: fixed;
@@ -27,7 +29,8 @@
     font-family: "Miriam Fixed";
     background-color: darksalmon;
 }
-.heart1{
+
+.heart1 {
     height: 200px;
     width: 200px;
     background-color: red;
@@ -40,7 +43,8 @@
     animation-direction: alternate;
     cursor: pointer;
 }
-.heart2{
+
+.heart2 {
     height: 200px;
     width: 200px;
     background-color: red;
@@ -54,7 +58,8 @@
     animation-direction: alternate;
     cursor: pointer;
 }
-.heart3{
+
+.heart3 {
     height: 200px;
     width: 200px;
     background-color: red;
@@ -68,42 +73,51 @@
     animation-direction: alternate;
     cursor: pointer;
 }
-@keyframes heartb{
-    from{
+
+@keyframes heartb {
+    from {
         height: 200px;
         width: 200px;
     }
-    to{
+
+    to {
         height: 100px;
         width: 100px;
     }
 }
+
 @keyframes heartri {
-    from{
+    from {
         height: 200px;
         width: 200px;
     }
-    to{
+
+    to {
         height: 100px;
         width: 100px;
     }
 }
+
 @keyframes heartle {
-    from{
+    from {
         height: 200px;
         width: 200px;
     }
-    to{
+
+    to {
         height: 100px;
         width: 100px;
     }
 }
-#col{
+
+#col {
     background-color: red;
 }
-#col1{
+
+#col1 {
     background-color: red;
 }
-#col2{
+
+#col2 {
     background-color: red;
 }
