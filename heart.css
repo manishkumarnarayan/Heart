@@ -13,7 +13,14 @@
     align-self: center;
     justify-self: center;
     top: 0px;
-    font-family: "Mv boli";
+    text-shadow: 2px 2px 4px #735D78;
+    text-align: center;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 10px;
     background-color: darksalmon;
 }
 
@@ -27,48 +34,54 @@
     transition-duration: 2s;
     animation-duration: 2s;
     font-family: "Miriam Fixed";
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 10px;
     background-color: darksalmon;
 }
 
 .heart1 {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color: red;
     rotate: 45deg;
     color: red;
     transition-duration: 1s;
     animation-name: heartb;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     cursor: pointer;
 }
 
 .heart2 {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color: red;
     rotate: 45deg;
     border-radius: 100%;
     margin: 0% -50%;
     transition-duration: 1s;
     animation-name: heartri;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     cursor: pointer;
 }
 
 .heart3 {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     background-color: red;
     rotate: 45deg;
     border-radius: 100%;
     margin: -150% 0%;
     transition-duration: 1s;
     animation-name: heartle;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     cursor: pointer;
@@ -76,37 +89,37 @@
 
 @keyframes heartb {
     from {
-        height: 200px;
-        width: 200px;
+        height: 100px;
+        width: 100px;
     }
 
     to {
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
     }
 }
 
 @keyframes heartri {
     from {
-        height: 200px;
-        width: 200px;
+        height: 100px;
+        width: 100px;
     }
 
     to {
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
     }
 }
 
 @keyframes heartle {
     from {
-        height: 200px;
-        width: 200px;
+        height: 100px;
+        width: 100px;
     }
 
     to {
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
     }
 }
 
