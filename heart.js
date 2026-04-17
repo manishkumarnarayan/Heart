@@ -2,8 +2,9 @@ let c = ["red", "#9D6381", "hotpink", "aqua", "#B5D99C"]
 let i = 0
 let color = c[i];
 let out = "";
+let  a = "I wanna say something i love you <3";
 let value = window.location.hash.substring(1).replaceAll("%20", " ");
-let a = ""
+a = ""
 for (let j = 0; j < value.length; j++) {
     a+=String.fromCharCode(value[j].charCodeAt(0)-1)
 }
