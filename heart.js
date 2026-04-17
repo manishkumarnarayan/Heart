@@ -2,7 +2,12 @@ let c = ["red", "#9D6381", "hotpink", "aqua", "#B5D99C"]
 let i = 0
 let color = c[i];
 let out = "";
-let s = "I wanna say something;) padh lo madarchod" + " ";
+let value = window.location.hash.substring(1).replaceAll("%20", " ");
+let a = ""
+for (let j = 0; j < value.length; j++) {
+    a+=String.fromCharCode(value[j].charCodeAt(0)-1)
+}
+let s = a + " ";
 let l = 0;
 function word() {
     let w = "";

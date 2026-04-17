@@ -1,20 +1,30 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>
-        Heart
-    </title>
-    <link rel="stylesheet" href="heart.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
-
-<body class="body">
-    <p id="textu">Click the heart <3 </p>
-            <div class="heart1" onclick="co()" id="col">
-                <div class="heart2" id="col1"></div>
-                <div class="heart3" id="col2"></div>
-            </div>
-            <p id="text"></p>
-            <script src="heart.js"></script>
+<body>
+    <div class="container">
+        <p class="container-title">
+            Try writing a message
+        </p>
+        <input type="text" id="message" placeholder="Wanna hang out?">
+        <button id="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="none" />
+                <path fill="currentColor" d="M473 39.05a24 24 0 0 0-25.5-5.46L47.47 185h-.08a24 24 0 0 0 1 45.16l.41.13l137.3 58.63a16 16 0 0 0 15.54-3.59L422 80a7.07 7.07 0 0 1 10 10L226.66 310.26a16 16 0 0 0-3.59 15.54l58.65 137.38c.06.2.12.38.19.57c3.2 9.27 11.3 15.81 21.09 16.25h1a24.63 24.63 0 0 0 23-15.46L478.39 64.62A24 24 0 0 0 473 39.05" stroke-width="13" stroke="currentColor" />
+            </svg>
+        </button>
+    </div>
+    <div class="link-container">
+        <p id="link"></p>
+    </div>
+    <script src="index.js"></script>
 </body>
-
 </html>
