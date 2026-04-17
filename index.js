@@ -8,13 +8,17 @@ document.addEventListener("DOMContentLoaded", () => {
         for (let j = 0; j < a.length; j++) {
             b+=String.fromCharCode(a[j].charCodeAt(0)+1)
         }
-        c = window.location.href;
-        c = c.substring(0,c.indexOf("index.html"))+"heart.html#"+b;
-        console.log(window.location.href)
-        console.log(window.location.origin)
-        console.log(window.location.pathname)
-        console.log(window.location.search)
-        console.log(window.location.hash)
+        const url = new URL(window.location.href);
+        let path = url.pathname;
+        if (path.endsWith("index.html")) {
+            path = path.substring(0, path.lastIndexOf("index.html"));
+        }
+        if (!path.endsWith("/")) {
+            path += "/";
+        }
+        url.pathname = path + "heart.html";
+        url.hash = b;
+        c = url.href;
         document.querySelector("#link").innerHTML = 'Click to copy the link';
         document.querySelector(".link-container").classList.add("active");
     });
