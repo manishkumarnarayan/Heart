@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     document.querySelector("#link").addEventListener("click", () => {
         navigator.clipboard.writeText(c);
-        document.querySelector("#link").innerHTML = "Copied! Now you send that copied link to anyone with the message";
+        document.querySelector("#link").innerHTML = "Copied! Now you send that copied link to your desired person";
         setTimeout(() => {
             document.querySelector("#link").innerHTML = 'Click to copy the link';
         }, 10000);
