@@ -23,14 +23,14 @@ document.addEventListener("DOMContentLoaded", () => {
         c = c.substring(0,c.indexOf("index.html"))+"heart.html#"+b; 
         */
         console.log(c)
-        document.querySelector("#link").innerHTML = 'Click to copy the link';
+        document.querySelector("#link").innerHTML = 'Click here to copy the link';
         document.querySelector(".link-container").classList.add("active");
     });
     document.querySelector("#link").addEventListener("click", () => {
         navigator.clipboard.writeText(c);
         document.querySelector("#link").innerHTML = "Copied! Now you send that copied link to your desired person";
         setTimeout(() => {
-            document.querySelector("#link").innerHTML = 'Click to copy the link';
+            document.querySelector("#link").innerHTML = 'Click here to copy the link';
         }, 10000);
     });
 });
