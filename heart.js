@@ -28,7 +28,7 @@ function co() {
     }
     else {
         l = 0;
-        out = word() + " ";
+        out = "";
     }
     color = c[i]
     document.getElementById("text").innerHTML = out;
