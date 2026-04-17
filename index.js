@@ -10,6 +10,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         c = window.location.href;
         c = c.substring(0,c.indexOf("index.html"))+"heart.html#"+b;
+        console.log(window.location.href)
+        console.log(window.location.origin)
+        console.log(window.location.pathname)
+        console.log(window.location.search)
+        console.log(window.location.hash)
         document.querySelector("#link").innerHTML = 'Click to copy the link';
         document.querySelector(".link-container").classList.add("active");
     });
